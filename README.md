@@ -1,1 +1,1 @@
-# random-web-project-generator
+# web-project-idea-generator
