@@ -1,1 +1,1 @@
-# web-project-idea-generator
+# yet unknown project
