@@ -3,11 +3,48 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Web Project Idea Generator</title>
+    <title>CSS3 Animations</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    Hello world
+    <div class="header">
+      <!-- <img class="css-logo" src="img/css3-logo.png"> -->
+      <h1 class="intro">CSS3 Animations</h1>
+      <p class="sub-intro" title="This is a remake of a project I did in school with 3 other people">This website will teach you the basics of animation in CSS3</p>
+    </div>
+    <div class="keyframes">
+      <h2>animation-name and @keyframes</h2>
+      <p>Make an element into an animation by giving it a name. To actually animate that element, you do <code>@keyframes (animation name)</code></p>
+      <table class="example">
+        <p class="example">Example</p>
+        <tr>
+          <br>
+          <pre>
+            div {
+              <span class="active">animation-name: rainbow;</span>
+              animation-duration: 2s;
+            }
+            <span class="active">
+            @keyframes {
+              0% {
+                background-color: red;
+              }
+              50% {
+                background-color: green;
+              }
+              100% {
+                background-color: blue;
+              }
+            }
+            </span>
+          </pre>
+        </tr>
+        <tr>
+          <div class="rainbow"></div>
+        </tr>
+      </table>
+    </div>
+    
     <script src="script.js"></script>
   </body>
 </html>

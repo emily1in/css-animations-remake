@@ -1,1 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Ubuntu+Mono&display=swap');
 
+* {
+    font-family: 'Ubuntu';
+}
+body {
+    background-color: rgb(49, 49, 49);
+}
+
+div.header {
+    text-align: center;
+    animation-name: header;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+div.keyframes {
+    text-align: center;
+    padding: 2px 10px 10px 10px;
+    color:rgb(165, 165, 165);
+    background-color: rgb(41, 41, 41);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h1.intro {
+    color: rgb(163, 120, 231);
+    font-size: 50px;
+    margin: 30px 0px 10px 0px;
+}
+p.sub-intro {
+    color: rgb(165, 165, 165);
+    margin: 10px;
+}
+h2 {
+    color:rgb(221, 221, 221);
+    text-align: center;
+}
+span.active {
+    font-family: 'Ubuntu Mono';
+    color:rgb(223, 203, 255)
+}
+pre {
+    text-align: center;
+    font-family: 'Ubuntu Mono';
+}
+p.example {
+    font-size: 20px;
+}
+
+div.rainbow {
+    animation-name: rainbow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    width: 100px;
+    height: 80px;
+}
+@keyframes rainbow {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: green;
+    }
+    100% {
+        background-color: blue;
+    }
+}
